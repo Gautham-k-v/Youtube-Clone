@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube.com Clone</title>
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    
+    <!-- general css styles  -->
+    <link rel="stylesheet" href="styles/general.css" />
+    <!-- header css styles -->
+    <link rel="stylesheet" href="styles/header.css" />
+    <!--video css styles -->
+    <link rel="stylesheet" href="styles/video.css" />
+  </head>
+  <body>
+    <div class="header">
+      <!-- left side of the header  -->
+      <div class="left-section">
+        <img src="icons/hamburger-menu.svg" alt="" class="hamburger-menu" />
+        <img src="icons/youtube-logo.svg" alt="" class="youtube-logo" />
+      </div>
+      <!-- middle section of the header  -->
+      <div class="middle-section">
+        <input type="search" placeholder="Search" class="search-bar">
+        <button class="search-button">
+                  <img src="icons/search.svg" alt="" class="search-icon" >
+        </button>
+        <button class="voice-search-button">
+          <img src="icons/voice-search-icon.svg" alt="" class="voice-search-icon">
+        </button>
+      </div>
+      <!-- right section of the header  -->
+      <div class="right-section">
+        <img src="icons/upload.svg" alt="" class="upload-icon">
+        <img src="icons/youtube-apps.svg" alt="" class="youtube-apps-icon">
+        <img src="icons/notifications.svg" alt="" class="notifications-icon">
+        <img src="channel-pictures/channel profile.jpg" alt="" class="current-user-profile-picture">
+      </div>
+    </div>
+    <!-- this grid is used to display the video cards in a grid layout -->
+    <div class="video-grid">
+      <!-- first card  -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img
+            src="images/hq720.avif"
+            alt="a guy lying on the keyboard"
+            class="thumbnail"
+          />
+        </div>
+        <!-- used to divide the video info into two columns -->
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="channel-pictures/channels01.jpg"
+              alt="Channel Logo"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">a Middle Class Software Engineer Story</p>
+            <p class="video-author">Semicolon Guy</p>
+            <p class="video-stats">238k views &middot; 3 months</p>
+          </div>
+        </div>
+      </div>
+      <!-- second card  -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img
+            src="images/second-card.webp"
+            alt="a guy lying with a macbook looking at the camera"
+            class="thumbnail"
+          />
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="channel-pictures/second-card.jpg"
+              alt="Channel Logo"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">I'm begging you to DISSAPPEAR</p>
+            <p class="video-author">Tharun Speaks</p>
+            <p class="video-stats">624k views &middot; 3 Weeks ago</p>
+          </div>
+        </div>
+      </div>
+      <!-- third card  -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img
+            src="images/image-3.avif"
+            alt="a guy reading books in a library"
+            class="thumbnail"
+          />
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="channel-pictures/channels3_profile.jpg"
+              alt="Channel Logo"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">Reading Changes your Brain|Let me Explain</p>
+            <p class="video-author">Dan Zakaria</p>
+            <p class="video-stats">303k views &middot; 1 months</p>
+          </div>
+        </div>
+      </div>
+      <!-- fourth card  -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img
+            src="images/image4.avif"
+            alt="a guy touching on a human head"
+            class="thumbnail"
+          />
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="channel-pictures/channels4_profile.jpg"
+              alt="Channel Logo"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              6 Forbidden knockout Pressure Points(Martial arts)
+            </p>
+            <p class="video-author">Master Yourself</p>
+            <p class="video-stats">1.1M views &middot;5 months ago</p>
+          </div>
+        </div>
+      </div>
+      <!-- fifth card  -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img
+            src="images/image 5.avif"
+            alt="a guy lying on the keyboard"
+            class="thumbnail"
+          />
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="channel-pictures/channels5_profile.jpg"
+              alt="Channel Logo"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Wake up at 4 AM:The Secret Hour of Champions
+            </p>
+            <p class="video-author">Inspire Flow</p>
+            <p class="video-stats">342k views &middot; 6 months</p>
+          </div>
+        </div>
+      </div>
+      <!-- sixth card  -->
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img
+            src="images/image6.webp"
+            alt="a guy running through a street"
+            class="thumbnail"
+          />
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img
+              class="profile-picture"
+              src="channel-pictures/channel-6.jpg"
+              alt="Channel Logo"
+            />
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              The Ultimate Shaolin Routine|SHAOLIN MASTER
+            </p>
+            <p class="video-author">MulliganBrothers</p>
+            <p class="video-stats">3.3M views &middot;2 Years ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

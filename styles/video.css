@@ -2,6 +2,12 @@
   width: 100%;
   border-radius: 15px;
 }
+.video-preview:hover{
+background: rgb(208, 206, 206);
+border-radius: 20px;
+  transition-duration: 1s;
+  cursor: pointer;
+}
 .video-title {
   margin-top: 0px;
   font-size: 14px;

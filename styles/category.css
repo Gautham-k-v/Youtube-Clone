@@ -1,0 +1,12 @@
+.category-list .category-button{
+border: none;
+cursor: pointer;
+font-size: 0.9rem;
+font-weight: bold;
+background: rgb(245, 243, 243);
+padding:0.4rem 0.75rem;
+border-radius: 0.5rem;
+white-space: nowrap;
+margin-bottom:20px;
+margin-right: 10px;
+}
